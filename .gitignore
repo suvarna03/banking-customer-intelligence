@@ -1,0 +1,26 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+artifacts/logs/
+
+# Generated models and large intermediate files
+models/*.joblib
+artifacts/phase_*/X_*.npz
+artifacts/phase_*/X_*.npy
+
+# Downloaded datasets (keep local)
+data/raw/*.csv
+
+# Generated Python packaging files
+*.egg-info/
+build/
+dist/

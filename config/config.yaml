@@ -1,0 +1,16 @@
+
+project:
+  name: banking-customer-intelligence
+
+paths:
+  raw_data: data/raw
+  artifacts: artifacts
+  models: models
+  reports: docs/reports
+
+data:
+  train_file: banking77_train.csv
+  test_file: banking77_test.csv
+
+logging:
+  level: INFO

@@ -1,0 +1,10 @@
+
+dataset:
+  required_columns:
+    - text
+    - category
+
+  target_column: category
+  text_column: text
+
+  expected_intent_classes: 77

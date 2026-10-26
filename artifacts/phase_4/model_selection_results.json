@@ -1,0 +1,20 @@
+{
+    "selection_metric": "f1_macro",
+    "cross_validation_folds": 5,
+    "number_of_configurations": 16,
+    "best_cv_macro_f1": 0.8812987025899716,
+    "best_cv_std": 0.0032498920948632122,
+    "best_params": {
+        "classifier__C": 1,
+        "tfidf__max_features": 20000,
+        "tfidf__min_df": 1,
+        "tfidf__ngram_range": [
+            1,
+            1
+        ]
+    },
+    "elapsed_seconds": 81.09,
+    "training_samples": 10003,
+    "intent_classes": 77,
+    "model_path": "models\\best_banking77_pipeline.joblib"
+}

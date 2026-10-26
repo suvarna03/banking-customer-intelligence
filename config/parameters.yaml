@@ -1,0 +1,11 @@
+
+text_representation:
+  ngram_range:
+    - 1
+    - 2
+  max_features: 20000
+  sublinear_tf: true
+
+data_split:
+  test_size: 0.2
+  random_state: 42

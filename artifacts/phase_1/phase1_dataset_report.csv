@@ -1,0 +1,11 @@
+Metric,Value
+train_rows,10003
+test_rows,3080
+train_columns,2
+test_columns,2
+train_intents,77
+test_intents,77
+train_missing_values,0
+test_missing_values,0
+train_duplicate_rows,0
+test_duplicate_rows,0
