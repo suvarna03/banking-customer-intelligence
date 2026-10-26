@@ -1,9 +1,20 @@
 
+# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+*.egg-info/
+build/
+dist/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+secrets/
+
+# IDE and operating system
 .vscode/
 .DS_Store
 Thumbs.db
@@ -12,15 +23,12 @@ Thumbs.db
 *.log
 artifacts/logs/
 
-# Generated models and large intermediate files
+# Generated model files
 models/*.joblib
+
+# Large intermediate matrices
 artifacts/phase_*/X_*.npz
 artifacts/phase_*/X_*.npy
 
-# Downloaded datasets (keep local)
+# Downloaded datasets
 data/raw/*.csv
-
-# Generated Python packaging files
-*.egg-info/
-build/
-dist/
